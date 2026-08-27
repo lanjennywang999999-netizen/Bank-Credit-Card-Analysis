@@ -123,3 +123,36 @@ Explores customer profitability, spending categories, city-wise performance, and
 * Power BI Dashboard Development
 * Data Storytelling
 * Business Recommendation Framework
+
+## Credit Card Term Glossary
+| Term       | Description       |
+| -------------- | -------------- |
+|Balance Transfer|A balance transfer enables the transfer of the balance of one credit card to another. The percentage shown in the table is the interest rate p.a. which applies to the balance transfer, the length of time which the interest rate is valid for, and then the interest rate which it reverts to.|
+|Sign up Bonus Points|A reward offered when you open a credit card. Eligibility conditions apply, see the provider's website for full details.|
+|0% balance transfer offers|A balance transfer is offered at 0% for a limited period. After which point a higher interest will be applied. Other fees and charges as well as conditions and limits may apply.|
+|Reward Program|The Reward Program is available directly with Airline Provider(s) or points are able to be transferred. Conditions may apply.|
+|Profile|The type of credit card a consumer would like to compare.|
+|Balance Transfer Fee|The fee charged for a balance transfer to a card. This can be a set dollar amount or a percentage of the balance being transferred. Other fees and charges may apply.|
+|Monthly Spend|The estimated amount of money a consumer will spend on their credit card per month|
+|Points never expire|The rewards points accrued on the card will never expire. Conditions may apply and can be subject to change.|
+|Apply in full online|The card account can be opened in full online. This includes ID verification, uploading supporting documentation, and approval.|
+|24hr Online Approval|The average approval time, when the card is applied for online, is within 24 hours. Conditions may apply.|
+|Interest free days|The maximum number of days from the purchase date before interest will start being charged. Conditions may apply.|
+|Features|Available features of a credit cards product.|
+|Special Offers|Special offers are available on the credit card. Conditions and eligibility requirements may apply.|
+|0% additional card holders|The Credit Card does not charge an annual fee on additional card holders. Limits may apply.|
+|$0 late payment fee|The Credit Card does not charge a late payment fee if the minimum payment is not made by the due date. Conditions may apply.|
+|0% currency conversion fee|The Credit Card does not charge a foreign currency conversion fee when making a purchase in another currency. Other fees and charges may apply.|
+|No annual fee|The credit card has no annual fee. Conditions may apply.|
+|0% purchase rate offers|An introductory rate of 0% is offered for a limited time, then will revert to a higher rate. Other fees and charges as well as conditions and limits may apply.|
+|Introductory purchase rate offers|A lower introductory rate on new purchases is offered for new members for a limited time, then will revert to a higher rate. Conditions may apply.|
+|Points uncapped|There is no limit which points no longer accrue for a given period.|
+|Redeem points for cash|Points earned with the Rewards Program can be redeemed for cash or credit.|
+|Partner Airlines|Partnered airlines which allow the transfer of rewards points to frequent flyer points.|
+|Fraud detection available|The Credit Card has systems which pick up suspicious spending. Refer to provider for further details.|
+|Redeem points at point of sale|Points earned with the Rewards Program can be redeemed at Point of Sale.|
+|Annual fee|The Credit Card standard annual fee that has been calculated based on spend amount entered. Other fees may apply.|
+|Purchase rate p.a.|The interest rate per annum which applies to regular purchases. Where promotional purchase rates are applicable we will show the introductory purchase rate p.a. and the period it’s valid for (if applicable) then the regular purchase rate p.a. which it reverts to. Rates are updated daily.|
+|Balance transfer rate p.a.|The interest rate per annum which applies to the balance transfer, the length of time which the interest rate is valid for, the interest rate which the card reverts to, then the fee for the balance transfer, if applicable. Conditions and limits may apply.|
+|First year annual fee|The total annualised fee charged in the first year of holding the card, including any automatic first-year fee waivers or reductions and, if applicable, rewards program fees. Fee waivers or reductions based on spend thresholds may also apply, and fees may change after the first year.|
+|Reward Points per $1|The rate at which points are earned for each dollar spent. Points shown in the table reflect the card's default rewards program and are based on regular spend, if applicable. The name of the points earned is displayed in the subtext, and points may be converted to partnered rewards programs where eligible. See the provider's website for full details.|
