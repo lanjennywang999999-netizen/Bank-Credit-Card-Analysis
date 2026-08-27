@@ -1,4 +1,4 @@
-# Credit-Card-Portfolio-Profitability-Revenue-Leakage-Analysis
+# Bank-Credit-Card-Portfolio-P&L-Analysis
 
 ## Project Overview
 
