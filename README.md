@@ -1,7 +1,7 @@
 # Bank-Credit-Card-Portfolio-P&L-Analysis
 
 ## Project Overview
-This BI project is to demonstrate the performance of a simulated bank credit card dataset from financial perspective, pricing perspective, risk management perspective and R&D perspective. It not only displays each key metric and also identify the key contributor(s) to profitability and loss using product, customer, merchant detail, and spending pattern etc. Besides, a research literature is reviwed and artificial neural network is adopted in the default data model for next default prediction. Finally, a data-driven approach is provided to address real world business problems. 
+This BI project is to demonstrate the performance of a simulated bank credit card dataset from financial perspective, risk management perspective and R&D perspective. It not only displays each key metric and also identify the key contributor(s) to profitability and loss using product, customer, merchant detail, and spending pattern etc. Besides, a research literature is reviwed and artificial neural network is adopted in the default data model for next default prediction. Finally, a data-driven approach is provided to address real world business problems. 
 
 ## Business Problem
 Commercial bank experienced increased cash flow stress; the transaction volumes and # of cardholders are increasing steadily, offseting the cashback expenses, rewards costs, fee waivers, and delinquency. All the evidences point to an imbalanced growth between overall revenue and portfilio returns.
@@ -13,28 +13,29 @@ Management asks:
 * Which state/city has most/lowest profitability?
 * How does default payment affect the profitability?
 * What is probability of default payment in a future state?
-* From risk management, can we group all the customers into three categories: Worthy Retained, Ongoing Monitored, Red flagged?
+* From risk management, can we group all the customers into three categories: Retained, Monitored, Risky?
 
-## Analysis break-down and Objectives (TBA)
-* Analyze overall portfolio profitability.
-* Identify major revenue and cost drivers.
-* Measure revenue leakage from cashback, rewards, and fee waivers.
-* Evaluate profitability across customer segments and card products.
-* Assess portfolio health and delinquency risk.
-* Build an interactive executive dashboard for business decision-making.
-* Recommend strategies to improve profitability and reduce risk.
+## Analysis break-down and Objectives
+* Conduct Portfolio level profitablity and performance analytics to access revenue, cost and margin.
+* Identify key revenue and cost drivers and quantify their impact on portfolio profitability.
+* Analyse revenue leakage across fee waviers, rewards and other incentives.
+* Segment profitability and performance by customer, card product, and behavioural characteristics.
+* Monitor portfolio health, delinquency trends, and emerging credit risk indicators.
+* Develop interactive executive dashboards to translate complex analytics into actionable business insights.
+* Provide data-driven recommendations to optimise profitability, improve revenue capture, and mitigate portfolio risk.
 
-## Techniques, Tools amd Skills (TBA)
-* SQL (Joins, CTEs, Window Functions, Aggregations, Subqueries)
+## Techniques, Tools amd Skills
+* R (Joins, Window Functions, Aggregations, Subqueries, Mutation)
+* Repeated Usage & Potential Sacle Up
 * Data Cleaning & Validation
-* Business KPI Development
+* Business Data Models Development
 * Financial & Portfolio Analysis
 * Customer Segmentation
-* Revenue Leakage Analysis
+* Revenue Profitability and Leakage Analysis
 * Risk & Delinquency Analysis
-* Power BI Dashboard Development
+* Business Intelligence Dashboard Development
 * Data Storytelling
-* Business Recommendation Framework
+* Business Insights and Recommendation Framework
   
 ## About Datasets
 ### Source
@@ -43,10 +44,10 @@ Management asks:
 ### Data Set Information
 This simulated dataset provides credit card transaction details including the demographics of customers, merchants, transaction datetime, amount, Is fraud flag, and also client default payments and bill statements in Taiwan.
 
-* Customers	10,000
+* Customers	30,000
 * Analysis Period	6 Months
-* Transactions	150,000+
-* Tables	4
+* Transactions	300,000+
+* Tables	5
 * Dashboard Pages	5  
 ### Attributes Information
 This analysis employed a binary variable in default data model, default payments (No=0/Yes=1) as response variable, and the rest variables are used as explanation variables.
