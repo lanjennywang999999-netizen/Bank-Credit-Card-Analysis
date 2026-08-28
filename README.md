@@ -156,3 +156,9 @@ Explores customer profitability, spending categories, city-wise performance, and
 |Balance transfer rate p.a.|The interest rate per annum which applies to the balance transfer, the length of time which the interest rate is valid for, the interest rate which the card reverts to, then the fee for the balance transfer, if applicable. Conditions and limits may apply.|
 |First year annual fee|The total annualised fee charged in the first year of holding the card, including any automatic first-year fee waivers or reductions and, if applicable, rewards program fees. Fee waivers or reductions based on spend thresholds may also apply, and fees may change after the first year.|
 |Reward Points per $1|The rate at which points are earned for each dollar spent. Points shown in the table reflect the card's default rewards program and are based on regular spend, if applicable. The name of the points earned is displayed in the subtext, and points may be converted to partnered rewards programs where eligible. See the provider's website for full details.|
+|Delinquency|It occurs when a credit card holder failed to make at least the minimum payment on time|
+|Profitability|The ability to generate revenue that exceeds its expenses.|
+|Revenue Contributor|The driver(s) of Revenue including transaction say interchange, credit say interest income, and credit card usage etc.|
+|Revenue Leakage|The money has been earned but loss thereafter due to a lack of awareness.|
+|Customer Segment|A customer segment is a district group of customers who share similar characteristics, behaviors, or needs.|
+
