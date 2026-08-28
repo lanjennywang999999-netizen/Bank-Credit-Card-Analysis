@@ -26,7 +26,7 @@ Management asks:
 
 ## Techniques, Tools amd Skills
 * R (Joins, Window Functions, Aggregations, Subqueries, Mutation)
-* Repeated Usage & Potential Sacle Up
+* R Package Development for repeated usage & potential scalability
 * Data Cleaning & Validation
 * Business Data Models Development
 * Financial & Portfolio Analysis
@@ -42,7 +42,7 @@ Management asks:
 * UCI Machine Learning Repository
 * Hugging Face
 ### Data Set Information
-This simulated dataset provides credit card transaction details including the demographics of customers, merchants, transaction datetime, amount, Is fraud flag, and also client default payments and bill statements in Taiwan.
+This simulated dataset provides credit card transaction details including the demographics of customers, merchants, transaction datetime, amount, Is fraud flag, and also client default payments and bill statements.
 
 * Customers	30,000
 * Analysis Period	6 Months
