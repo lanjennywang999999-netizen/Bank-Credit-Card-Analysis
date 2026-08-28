@@ -1,24 +1,21 @@
 # Bank-Credit-Card-Portfolio-P&L-Analysis
 
 ## Project Overview
-
-This project analyzes the financial performance of a simulated credit card portfolio to identify the key drivers of profitability, revenue leakage, customer behavior, and credit risk.
-
-Using SQL, Power BI, Python, and Excel, the analysis evaluates how different card products, customer segments, spending patterns, and delinquency levels impact overall portfolio performance. The project provides data-driven recommendations to improve profitability while reducing operational and credit risk.
+This BI project is to demonstrate the performance of a simulated bank credit card dataset from financial perspective, pricing perspective, risk management perspective and R&D perspective. It not only displays each key metric and also identify the key contributor(s) to profitability and loss using product, customer, merchant detail, and spending pattern etc. Besides, a research literature is reviwed and artificial neural network is adopted in the default data model for next default prediction. Finally, a data-driven approach is provided to address real world business problems. 
 
 ## Business Problem
+Commercial bank experienced increased cash flow stress; the transaction volumes and # of cardholders are increasing steadily, offseting the cashback expenses, rewards costs, fee waivers, and delinquency. All the evidences point to an imbalanced growth between overall revenue and portfilio returns.
 
-A retail bank has experienced steady growth in credit card customers and transaction volume, but overall profitability has not improved at the same pace. Rising cashback expenses, reward costs, fee waivers, and customer delinquency are reducing portfolio returns.
+Management asks:
+* Which income cateogory drives the revenue most?
+* Where is the revenue leakage?
+* Which cohorts are most profitablity?
+* Which state/city has most/lowest profitability?
+* How does default payment affect the profitability?
+* What is probability of default payment in a future state?
+* From risk management, can we group all the customers into three categories: Worthy Retained, Ongoing Monitored, Red flagged?
 
-Management wants to answer the following questions:
-
-* Which card products generate the highest profitability?
-* Which revenue sources contribute the most?
-* Where is revenue leaking?
-* Which customer segments are most profitable?
-* How does delinquency affect profitability?
-* Which customers should be retained, upgraded, or monitored?
-## Project Objectives
+## Analysis break-down and Objectives (TBA)
 * Analyze overall portfolio profitability.
 * Identify major revenue and cost drivers.
 * Measure revenue leakage from cashback, rewards, and fee waivers.
@@ -26,24 +23,40 @@ Management wants to answer the following questions:
 * Assess portfolio health and delinquency risk.
 * Build an interactive executive dashboard for business decision-making.
 * Recommend strategies to improve profitability and reduce risk.
-## Dataset Overview
-Metric	Value
+
+## Techniques, Tools amd Skills (TBA)
+* SQL (Joins, CTEs, Window Functions, Aggregations, Subqueries)
+* Data Cleaning & Validation
+* Business KPI Development
+* Financial & Portfolio Analysis
+* Customer Segmentation
+* Revenue Leakage Analysis
+* Risk & Delinquency Analysis
+* Power BI Dashboard Development
+* Data Storytelling
+* Business Recommendation Framework
+  
+## About Datasets
+### Source
+* UCI Machine Learning Repository
+* Hugging Face
+### Data Set Information
+This simulated dataset provides credit card transaction details including the demographics of customers, merchants, transaction datetime, amount, Is fraud flag, and also client default payments and bill statements in Taiwan.
+
 * Customers	10,000
-* Analysis Period	12 Months
+* Analysis Period	6 Months
 * Transactions	150,000+
 * Tables	4
-* Dashboard Pages	5
+* Dashboard Pages	5  
+### Attributes Information
+This analysis employed a binary variable in default data model, default payments (No=0/Yes=1) as response variable, and the rest variables are used as explanation variables.
 ### Data Model
 * Cardholders
 * Transactions
-* Billing
-* Delinquency
-## Tools & Technologies
-* SQL (MySQL) – Data extraction and business analysis
-* Power BI – Interactive dashboard development
-* Excel – Data validation and exploratory analysis
-* GitHub – Version control and project documentation
-*  ## Analytical Approach
+* Billing and Defaults
+
+## Approach (TBA)
+
 The analysis was completed across five business areas:
 * ### 1. Portfolio Profitability
 * Revenue
@@ -71,7 +84,8 @@ The analysis was completed across five business areas:
 * Transaction Analysis
 * Customer Value
 * Category-wise Spend
-## Dashboard Pages
+
+## Dashboard Pages (TBA)
 * Page 1 — Executive Portfolio Overview - 
 Provides an executive summary of portfolio performance including revenue, profit, profit margin, revenue composition, product profitability, and delinquency KPIs.
 <img width="903" height="506" alt="Executive" src="https://github.com/user-attachments/assets/a34af390-8361-49ac-b9df-cde65659996b" />
@@ -93,14 +107,14 @@ Analyzes portfolio health distribution, watchlist customers, high-risk accounts,
 Explores customer profitability, spending categories, city-wise performance, and spending patterns.
 <img width="908" height="514" alt="Customer" src="https://github.com/user-attachments/assets/470a97ca-9a53-486c-85ea-d42b96464c7b" />
 
-## Key Business Findings
+## Key Business Findings (TBA)
 * Portfolio generated ₹50.38M in total revenue and ₹17.63M in net profit, achieving a 34.99% profit margin across 10,000 customers over 12 months.
 * Interchange revenue contributed ₹17.75M (35.23% of total revenue), making it the largest individual revenue source and highlighting the importance of customer spending behaviour.
 * Cashback cost reached ₹19.78M, making it the largest cost component and the primary driver of portfolio revenue leakage.
 * Platinum cards achieved the highest profit margin (47.78%), while Classic cards generated the highest revenue (₹21.46M) but the lowest profit margin (25.47%), indicating lower cost efficiency.
 * The portfolio recorded a 15.23% delinquency rate, with 571 customers in the 90+ DPD bucket representing the highest credit risk segment requiring immediate attention.
 * Travel accounted for ₹638M (approximately 55% of total portfolio spend), making it the highest spending category, while city-wise profitability remained relatively consistent across all locations.
-## Business Recommendations
+## Business Recommendations (TBA)
 * 1. Optimize Classic Card Cashback Strategy - Reduce cashback on low-margin categories while maintaining attractive rewards on high-value spending categories to reduce revenue leakage.
 * Expected Impact: Improve profitability by reducing unnecessary cashback costs.
 
@@ -111,18 +125,6 @@ Explores customer profitability, spending categories, city-wise performance, and
 * 4. Review Platinum Fee Waiver Policy - Restrict fee waivers to eligible customer scenarios to reduce unnecessary revenue leakage without impacting customer retention.
 
 * 5. Focus Customer Acquisition on Spending Behaviour - Prioritize acquisition campaigns targeting profitable spending patterns rather than geographic location to improve overall portfolio quality.
-
-## Skills Demonstrated
-* SQL (Joins, CTEs, Window Functions, Aggregations, Subqueries)
-* Data Cleaning & Validation
-* Business KPI Development
-* Financial & Portfolio Analysis
-* Customer Segmentation
-* Revenue Leakage Analysis
-* Risk & Delinquency Analysis
-* Power BI Dashboard Development
-* Data Storytelling
-* Business Recommendation Framework
 
 ## Credit Card Term Glossary
 | Term       | Description       |
