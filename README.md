@@ -54,7 +54,9 @@ This analysis employed a binary variable in default data model, default payments
 ### Data Model
 * Cardholders
 * Transactions
-* Billing and Defaults
+* Billing
+* Delinquency
+* Defaults
 
 ## Approach (TBA)
 
