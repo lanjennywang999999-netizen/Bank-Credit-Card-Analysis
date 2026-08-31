@@ -92,10 +92,10 @@ The analysis was completed across five business areas:
     * Category-level Spend
     * Customer Spending Patterns
 
-## Dashboard Pages (TBA)
+## Dashboard Pages
 * Page 1 — Executive Portfolio Overview - 
 Provides an executive summary of portfolio performance including revenue, profit, profit margin, revenue composition, product profitability, and delinquency KPIs.
-<img width="903" height="506" alt="Executive" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Executive.png" />
+<img width="903" height="512" alt="Executive" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Executive.png" />
 
 
 * Page 2 — Product Profitability & Revenue Leakage
@@ -104,11 +104,11 @@ Analyzes profitability across Classic, Gold, and Platinum cards while identifyin
 
  * Page 3 — Risk & Delinquency
 Evaluates delinquency movement across DPD buckets, outstanding balance exposure, and customer risk concentration.
-<img width="876" height="488" alt="Risk" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Risk.png" />
+<img width="903" height="512" alt="Risk" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Risk.png" />
 
 *  Page 4 — Portfolio Health Tracking and Customer Behavior
 Analyzes portfolio health distribution, watchlist customers, high-risk accounts, and credit utilization.
-<img width="894" height="501" alt="Protfolio" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Portfolio.png" />
+<img width="903" height="512" alt="Portfolio" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Portfolio.png" />
 
 
 ## Key Business Findings and Insights
@@ -124,16 +124,14 @@ Analyzes portfolio health distribution, watchlist customers, high-risk accounts,
 * ~ 6.7K cardholders are predicted to default potentially next month with est. $863M credit limit totally.
 
 ## Business Recommendations
-* 1. Optimize Classic Card Cashback Strategy - Reduce cashback on low-margin categories while maintaining attractive rewards on high-value spending categories to reduce revenue leakage.
-* Expected Impact: Improve profitability by reducing unnecessary cashback costs.
+* Classic cards Rewards Points Strategy Optimization - Reduce points on low margin segment but still maintain attractive cashback on high value categories;
+* Unlock the potential of classic cardholders - identify high value group and promote gold cards to improve long-term portfolio profitability;
+* Launch automated minimum payment Due Reminder (Notice) - prevent and/or reduce delinquency rates;
+* Build ongoing monitoring over watchlist customers before they rolled into higher PDP+.;
+* Review Platinum fee waiver policy - limit fee waiver to only eligible customers and certain scenarios;
+* Review Revenue composition - factoring the key RBA interchange policy changes effective since 1 Oct 26 esp. for share tracking only;
+* Activate customer acquisition campaign over customer spending behavior - optimize audience list by focusing high profit margin customers per spending category rather than geotargeting.
 
-* 2. Upgrade High-Value Classic Customers - Identify high-spending Classic cardholders and promote Gold cards to improve long-term portfolio profitability through a more efficient reward structure.
-
-* 3. Launch Early Delinquency Intervention - Implement automated payment reminders, EMI restructuring, and proactive customer outreach for Watchlist customers before they migrate into higher DPD buckets.
-
-* 4. Review Platinum Fee Waiver Policy - Restrict fee waivers to eligible customer scenarios to reduce unnecessary revenue leakage without impacting customer retention.
-
-* 5. Focus Customer Acquisition on Spending Behavior - Prioritize acquisition campaigns targeting profitable spending patterns rather than geographic location to improve overall portfolio quality.
 
 ## Credit Card Term Glossary
 | Term       | Description       |
