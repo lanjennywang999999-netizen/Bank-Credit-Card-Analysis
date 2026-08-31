@@ -95,20 +95,20 @@ The analysis was completed across five business areas:
 ## Dashboard Pages (TBA)
 * Page 1 — Executive Portfolio Overview - 
 Provides an executive summary of portfolio performance including revenue, profit, profit margin, revenue composition, product profitability, and delinquency KPIs.
-<img width="903" height="506" alt="Executive" src="https://github.com/user-attachments/assets/a34af390-8361-49ac-b9df-cde65659996b" />
+<img width="903" height="506" alt="Executive" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Executive.png" />
 
 
 * Page 2 — Product Profitability & Revenue Leakage
 Analyzes profitability across Classic, Gold, and Platinum cards while identifying major revenue leakage from cashback, rewards, and fee waivers.
-<img width="903" height="512" alt="Product" src="https://github.com/user-attachments/assets/26063535-c88b-436b-acc6-8d80d03f6143" />
+<img width="903" height="512" alt="Product" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Product.png" />
 
  * Page 3 — Risk & Delinquency
 Evaluates delinquency movement across DPD buckets, outstanding balance exposure, and customer risk concentration.
-<img width="876" height="488" alt="Risk" src="https://github.com/user-attachments/assets/496d2adb-678f-4b72-9dc5-d4f86327e2e9" />
+<img width="876" height="488" alt="Risk" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Risk.png" />
 
 *  Page 4 — Portfolio Health Tracking and Customer Behavior
 Analyzes portfolio health distribution, watchlist customers, high-risk accounts, and credit utilization.
-<img width="894" height="501" alt="Protfolio" src="https://github.com/user-attachments/assets/b06cf9a3-9a42-409a-a626-64298dd9d931" />
+<img width="894" height="501" alt="Protfolio" src="https://github.com/lanjennywang999999-netizen/Bank-Credit-Card-Analysis/blob/main/Portfolio.png" />
 
 
 ## Key Business Findings and Insights
