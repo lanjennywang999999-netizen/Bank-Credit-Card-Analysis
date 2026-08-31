@@ -48,7 +48,8 @@ This simulated dataset provides credit card transaction details including the de
 * Analysis Period	6 Months
 * Transactions	300,000+
 * Tables	5
-* Dashboard Pages	5  
+* Dashboard Pages	4  
+
 ### Attributes Information
 This analysis employed a binary variable in default data model, default payments (No=0/Yes=1) as response variable, and the rest variables are used as explanation variables.
 ### Data Model
@@ -58,35 +59,38 @@ This analysis employed a binary variable in default data model, default payments
 * Delinquency
 * Defaults
 
-## Approach (TBA)
-
+## Approach
 The analysis was completed across five business areas:
-* ### 1. Portfolio Profitability
-* Revenue
-* Cost
-* Net Profit
-* Profit Margin
-* Monthly Performance
-* ### 2. Product Profitability
-* Card Type Performance
-* Income Segment Analysis
-* Customer Profitability
-* City-wise Profitability
-* ### 3. Revenue Leakage
-* Cashback Cost
-* Reward Cost
-* Fee Waivers
-* Leakage Ratio
-* ### 4. Portfolio Risk
-* Delinquency Analysis
-* Outstanding Balance Exposure
-* Credit Utilization
-* Portfolio Health
-* ### 5. Customer Spending Behaviour
-* Spending Categories
-* Transaction Analysis
-* Customer Value
-* Category-wise Spend
+1. Portfolio Profitability
+    * Revenue Performance
+    * Cost Structure
+    * Net Profit
+    * Profit Margin
+    * Monthly Profitability Trends
+2. Product & Customer Profitability
+    * Card Type Performance
+    * Income Segment Analysis
+    * Customer Profitability
+    * Geographic Profitability
+    * Segment-level Profitability
+3. Revenue Leakage
+    * Cashback Costs
+    * Rewards Costs
+    * Fee Waivers
+    * Revenue Leakage
+    * Leakage Ratio
+4. Portfolio Risk
+    * Delinquency Trends
+    * Outstanding Balance Exposure
+    * Credit Utilization
+    * Risk Concentration
+    * Overall Portfolio Health
+5. Customer Spending Behavior
+    * Spending Category Analysis
+    * Transaction Trends
+    * Customer Value Analysis
+    * Category-level Spend
+    * Customer Spending Patterns
 
 ## Dashboard Pages (TBA)
 * Page 1 — Executive Portfolio Overview - 
@@ -94,30 +98,32 @@ Provides an executive summary of portfolio performance including revenue, profit
 <img width="903" height="506" alt="Executive" src="https://github.com/user-attachments/assets/a34af390-8361-49ac-b9df-cde65659996b" />
 
 
-* Page 2 — Product Profitability & Revenue Leakage - 
+* Page 2 — Product Profitability & Revenue Leakage
 Analyzes profitability across Classic, Gold, and Platinum cards while identifying major revenue leakage from cashback, rewards, and fee waivers.
 <img width="903" height="512" alt="Product" src="https://github.com/user-attachments/assets/26063535-c88b-436b-acc6-8d80d03f6143" />
 
- * Page 3 — Risk & Delinquency - 
+ * Page 3 — Risk & Delinquency
 Evaluates delinquency movement across DPD buckets, outstanding balance exposure, and customer risk concentration.
 <img width="876" height="488" alt="Risk" src="https://github.com/user-attachments/assets/496d2adb-678f-4b72-9dc5-d4f86327e2e9" />
 
-*  Page 4 — Portfolio Health - 
+*  Page 4 — Portfolio Health Tracking and Customer Behavior
 Analyzes portfolio health distribution, watchlist customers, high-risk accounts, and credit utilization.
 <img width="894" height="501" alt="Protfolio" src="https://github.com/user-attachments/assets/b06cf9a3-9a42-409a-a626-64298dd9d931" />
 
-* Page 5 — Customer & Spend Behaviour - 
-Explores customer profitability, spending categories, city-wise performance, and spending patterns.
-<img width="908" height="514" alt="Customer" src="https://github.com/user-attachments/assets/470a97ca-9a53-486c-85ea-d42b96464c7b" />
 
-## Key Business Findings (TBA)
-* Portfolio generated ₹50.38M in total revenue and ₹17.63M in net profit, achieving a 34.99% profit margin across 10,000 customers over 12 months.
-* Interchange revenue contributed ₹17.75M (35.23% of total revenue), making it the largest individual revenue source and highlighting the importance of customer spending behaviour.
-* Cashback cost reached ₹19.78M, making it the largest cost component and the primary driver of portfolio revenue leakage.
-* Platinum cards achieved the highest profit margin (47.78%), while Classic cards generated the highest revenue (₹21.46M) but the lowest profit margin (25.47%), indicating lower cost efficiency.
-* The portfolio recorded a 15.23% delinquency rate, with 571 customers in the 90+ DPD bucket representing the highest credit risk segment requiring immediate attention.
-* Travel accounted for ₹638M (approximately 55% of total portfolio spend), making it the highest spending category, while city-wise profitability remained relatively consistent across all locations.
-## Business Recommendations (TBA)
+## Key Business Findings and Insights
+* The portfolio generated $48M revenue and $12M profit at a 24.11% margin.
+* Interchange revenue is the largest revenue contributor (43%), while rewards point remains the biggest profitability leak. 
+* Platinum and Gold cards deliver the same high margin (34%), while classic card shows strong relationship with outstanding bal. 
+* The portfolio maintains a 13.90% delinquency rate requiring ongoing risk monitoring.
+* Rewards accounts for the majority of revenue leakage across all card products and largely concentrated along eastern coast.
+* The portfolio has $238.21M avg. in outstanding exposure, and highest average exposure sits at 6th day. 
+* A total of 8.3K customers are in the 2nd DPD category, bring around $3.6M profits. 
+* Classic cardholders contribute the largest share of delinquent accounts and require focused monitoring.
+* Metro tends to have higher delinquency rate than regions.
+* ~ 6.7K cardholders are predicted to default potentially next month with est. $863M credit limit totally.
+
+## Business Recommendations
 * 1. Optimize Classic Card Cashback Strategy - Reduce cashback on low-margin categories while maintaining attractive rewards on high-value spending categories to reduce revenue leakage.
 * Expected Impact: Improve profitability by reducing unnecessary cashback costs.
 
@@ -127,7 +133,7 @@ Explores customer profitability, spending categories, city-wise performance, and
 
 * 4. Review Platinum Fee Waiver Policy - Restrict fee waivers to eligible customer scenarios to reduce unnecessary revenue leakage without impacting customer retention.
 
-* 5. Focus Customer Acquisition on Spending Behaviour - Prioritize acquisition campaigns targeting profitable spending patterns rather than geographic location to improve overall portfolio quality.
+* 5. Focus Customer Acquisition on Spending Behavior - Prioritize acquisition campaigns targeting profitable spending patterns rather than geographic location to improve overall portfolio quality.
 
 ## Credit Card Term Glossary
 | Term       | Description       |
